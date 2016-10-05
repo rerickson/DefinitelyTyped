@@ -82,6 +82,7 @@ export declare var ERROR: number;
 export declare var FATAL: number;
 
 export declare function resolveLevel(value: number | string): number;
+export declare var nameFromLevel: {};
 
 export declare function createLogger(options: LoggerOptions): Logger;
 
